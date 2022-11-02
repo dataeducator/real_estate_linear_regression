@@ -25,3 +25,13 @@
 # Future Work
 
 # Repository Structure
+<pre>
+.
+└── real_estate_linear_regression/
+    ├── README.md
+    ├── final_project_phase_2.ipynb
+    ├── notebook.pdf
+    ├── presentation.pdf
+    ├── Images/
+    └── .gitignore
+</pre>
