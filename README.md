@@ -20,24 +20,24 @@ The dataset selected in this project are from the :
 The dataset can be found in the data folder of this repository along with a file called <code>column_names.md</code> which provides description of the features within the dataset. More information about the features on the site of [the King County Assessor.](https://info.kingcounty.gov/assessor/esales/Glossary.aspx?type=r)
 
 The King County House Sales Dataset includes sales data for 21,597 homes with 20 features including but not limited to:
-| Name               | Description                 |Final Datatype| Categorical or Numeric  |Target or Feature|
+| Name               | Description                 |Final Datatype|Numeric or Categorical|Target or Feature|
 |--------------------|-----------------------------|---------|-------------------------|-----------------|
-| <code>id</code>    |Unique identifier for a house| <code></code>|Numeric|Feature|
-|<code>date</code>| Date house was sold|<code></code>|Numeric|Feature|
-| <code>price</code>|Sale price (__prediction target__)|<code></code>| Numeric|Target|
-| <code>bedrooms</code>|Number of bedrooms|<code></code>|Numeric|Feature|
-| <code>bathrooms</code>|Number of bathrooms|<code></code>|Numeric|Feature|
-| <code>sqft_living</code>|Square footage of living space in the home|<code></code>|Numeric|Feature|
-| <code>sqft_lot</code>|Square footage of the lot|<code></code>|Numeric|Feature|
-| <code>floors</code>|Number of floors(levels) in house|<code></code>|Numeric|Feature|
-| <code>waterfront</code>|Whether the house is on a waterfront|<code></code>|Numeric|Feature|
-| <code>view</code>|  Quality of view from house|<code></code>|Numeric|Feature|
-| <code>condition</code>|How good the overall condition of the house is. Related to the maintenance of house|<code></code>|Numeric|Feature| 
-| <code>grade</code>|Overall grade of the house. Related to the construction and design of the house|<code></code>|Numeric|Feature|
-| <code>yr_built</code>|Year when house was built|<code></code>|Numeric|Feature|
-| <code>yr_renovated</code>|Year when house was renovated|<code></code>|Numeric|Feature|
-| <code>lat</code>|Latitude coordinate|<code></code>|Numeric|Feature|
-| <code>long</code>| Longitude coordinate|Numeric|Feature|
+| <code>id</code>    |Unique identifier for a house| <code>int</code>|Numeric|Feature|
+|<code>date</code>| Date house was sold|<code>datetime</code>|Numeric|Feature|
+| <code>price</code>|Sale price (__prediction target__)|<code>int</code>| Numeric|Target|
+| <code>bedrooms</code>|Number of bedrooms|<code>int</code>|Numeric|Feature|
+| <code>bathrooms</code>|Number of bathrooms|<code>float</code>|Numeric|Feature|
+| <code>sqft_living</code>|Square footage of living space in the home|<code>int</code>|Numeric|Feature|
+| <code>sqft_lot</code>|Square footage of the lot|<code>int</code>|Numeric|Feature|
+| <code>floors</code>|Number of floors(levels) in house|<code>float</code>|Numeric|Feature|
+| <code>waterfront</code>|Whether the house is on a waterfront|<code>float</code>|Categorical|Feature|
+| <code>view</code>|  Quality of view from house|<code>float</code>|Categorical|Feature|
+| <code>condition</code>|How good the overall condition of the house is. Related to the maintenance of house|<code>int</code>|Numeric|Feature| 
+| <code>grade</code>|Overall grade of the house. Related to the construction and design of the house|<code>int</code>|Numeric|Feature|
+| <code>yr_built</code>|Year when house was built|<code>int</code>|Numeric|Feature|
+| <code>yr_renovated</code>|Year when house was renovated|<code>int</code>|Numeric|Feature|
+| <code>lat</code>|Latitude coordinate|<code>float</code>|Numeric|Feature|
+| <code>long</code>| Longitude coordinate|<code>float</code>|Numeric|Feature|
 
 # Data Preparation
 ## Import libraries and Visualization Packages
