@@ -20,7 +20,9 @@ The dataset selected in this project are from the :
 The dataset can be found in the data folder of this repository along with a file called <code>column_names.md</code> which provides description of the features within the dataset. More information about the features on the site of [the King County Assessor.](https://info.kingcounty.gov/assessor/esales/Glossary.aspx?type=r)
 
 The King County House Sales Dataset includes sales data for 21,597 homes with 20 features including but not limited to:
-* <code>id</code> - Unique identifier for a house
+| Name               | Description                 |Data Type| Categorical or Numeric  |Target or Feature|
+|--------------------|-----------------------------|---------|-------------------------|-----------------|
+| <code>id</code>    |Unique identifier for a house|int|Numeric|Feature|
 * <code>date</code> - Date house was sold
 * <code>price</code> - Sale price (__prediction target__)
 * <code>bedrooms</code> - Number of bedrooms
