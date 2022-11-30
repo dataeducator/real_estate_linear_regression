@@ -22,21 +22,21 @@ The dataset can be found in the data folder of this repository along with a file
 The King County House Sales Dataset includes sales data for 21,597 homes with 20 features including but not limited to:
 | Name               | Description                 |Final Datatype| Categorical or Numeric  |Target or Feature|
 |--------------------|-----------------------------|---------|-------------------------|-----------------|
-| <code>id</code>    |Unique identifier for a house|int|Numeric|Feature|
-|<code>date</code>| Date house was sold|datetime|Numeric|Feature|
-| <code>price</code>|Sale price (__prediction target__)|int| Numeric|Target|
-| <code>bedrooms</code>|Number of bedrooms|
-| <code>bathrooms</code>|Number of bathrooms|
-| <code>sqft_living</code>|Square footage of living space in the home|
-| <code>sqft_lot</code>|Square footage of the lot|
-| <code>floors</code>|Number of floors(levels) in house|
-| <code>waterfront</code>|Whether the house is on a waterfront|
-| <code>view</code>|  Quality of view from house|
-| <code>condition</code>|How good the overall condition of the house is. Related to the maintenance of house| 
-| <code>grade</code>|Overall grade of the house. Related to the construction and design of the house|
-| <code>yr_built</code>|Year when house was built|
-| <code>yr_renovated</code>|Year when house was renovated|
-| <code>lat</code>|Latitude coordinate|
+| <code>id</code>    |Unique identifier for a house| <code></code>|Numeric|Feature|
+|<code>date</code>| Date house was sold|<code></code>|Numeric|Feature|
+| <code>price</code>|Sale price (__prediction target__)|<code></code>| Numeric|Target|
+| <code>bedrooms</code>|Number of bedrooms|<code></code>|
+| <code>bathrooms</code>|Number of bathrooms|<code></code>|
+| <code>sqft_living</code>|Square footage of living space in the home|<code></code>|
+| <code>sqft_lot</code>|Square footage of the lot|<code></code>|
+| <code>floors</code>|Number of floors(levels) in house|<code></code>|
+| <code>waterfront</code>|Whether the house is on a waterfront|<code></code>|
+| <code>view</code>|  Quality of view from house|<code></code>|
+| <code>condition</code>|How good the overall condition of the house is. Related to the maintenance of house|<code></code>| 
+| <code>grade</code>|Overall grade of the house. Related to the construction and design of the house|<code></code>|
+| <code>yr_built</code>|Year when house was built|<code></code>|
+| <code>yr_renovated</code>|Year when house was renovated|<code></code>|
+| <code>lat</code>|Latitude coordinate|<code></code>|
 | <code>long</code>| Longitude coordinate|
 
 # Data Preparation
