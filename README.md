@@ -25,19 +25,19 @@ The King County House Sales Dataset includes sales data for 21,597 homes with 20
 | <code>id</code>    |Unique identifier for a house| <code></code>|Numeric|Feature|
 |<code>date</code>| Date house was sold|<code></code>|Numeric|Feature|
 | <code>price</code>|Sale price (__prediction target__)|<code></code>| Numeric|Target|
-| <code>bedrooms</code>|Number of bedrooms|<code></code>|
-| <code>bathrooms</code>|Number of bathrooms|<code></code>|
-| <code>sqft_living</code>|Square footage of living space in the home|<code></code>|
-| <code>sqft_lot</code>|Square footage of the lot|<code></code>|
-| <code>floors</code>|Number of floors(levels) in house|<code></code>|
-| <code>waterfront</code>|Whether the house is on a waterfront|<code></code>|
-| <code>view</code>|  Quality of view from house|<code></code>|
-| <code>condition</code>|How good the overall condition of the house is. Related to the maintenance of house|<code></code>| 
-| <code>grade</code>|Overall grade of the house. Related to the construction and design of the house|<code></code>|
-| <code>yr_built</code>|Year when house was built|<code></code>|
-| <code>yr_renovated</code>|Year when house was renovated|<code></code>|
-| <code>lat</code>|Latitude coordinate|<code></code>|
-| <code>long</code>| Longitude coordinate|
+| <code>bedrooms</code>|Number of bedrooms|<code></code>|Numeric|Feature|
+| <code>bathrooms</code>|Number of bathrooms|<code></code>|Numeric|Feature|
+| <code>sqft_living</code>|Square footage of living space in the home|<code></code>|Numeric|Feature|
+| <code>sqft_lot</code>|Square footage of the lot|<code></code>|Numeric|Feature|
+| <code>floors</code>|Number of floors(levels) in house|<code></code>|Numeric|Feature|
+| <code>waterfront</code>|Whether the house is on a waterfront|<code></code>|Numeric|Feature|
+| <code>view</code>|  Quality of view from house|<code></code>|Numeric|Feature|
+| <code>condition</code>|How good the overall condition of the house is. Related to the maintenance of house|<code></code>|Numeric|Feature| 
+| <code>grade</code>|Overall grade of the house. Related to the construction and design of the house|<code></code>|Numeric|Feature|
+| <code>yr_built</code>|Year when house was built|<code></code>|Numeric|Feature|
+| <code>yr_renovated</code>|Year when house was renovated|<code></code>|Numeric|Feature|
+| <code>lat</code>|Latitude coordinate|<code></code>|Numeric|Feature|
+| <code>long</code>| Longitude coordinate|Numeric|Feature|
 
 # Data Preparation
 ## Import libraries and Visualization Packages
