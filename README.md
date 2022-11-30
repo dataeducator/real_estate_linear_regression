@@ -63,8 +63,8 @@ To dig deeper into the data, I will:
 
 # Build a Simple Linear Regression model
 
-First, I will set the dependent variable (<code>y</code>) to be the <code>price</code>.  Next I will choose the most highly correlated features from the dataframe to be the baseline independent variable (<code>X</code>). 
-Afterwards, I will:
+First, I set the dependent variable (<code>y</code>) to be the <code>price</code>.  Then I chose the most highly correlated features from the dataframe to be the baseline independent variable (<code>X</code>). 
+Finally, I followed this methodology:
 * Build a linear regression using <code>statsModels</code>
 * Describe the overall model performance 
 * Interpret its coefficients. 
