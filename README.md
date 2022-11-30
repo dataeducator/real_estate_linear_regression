@@ -20,24 +20,24 @@ The dataset selected in this project are from the :
 The dataset can be found in the data folder of this repository along with a file called <code>column_names.md</code> which provides description of the features within the dataset. More information about the features on the site of [the King County Assessor.](https://info.kingcounty.gov/assessor/esales/Glossary.aspx?type=r)
 
 The King County House Sales Dataset includes sales data for 21,597 homes with 20 features including but not limited to:
-| Name               | Description                 |Data Type| Categorical or Numeric  |Target or Feature|
+| Name               | Description                 |Final Datatype| Categorical or Numeric  |Target or Feature|
 |--------------------|-----------------------------|---------|-------------------------|-----------------|
 | <code>id</code>    |Unique identifier for a house|int|Numeric|Feature|
-* <code>date</code> - Date house was sold
-* <code>price</code> - Sale price (__prediction target__)
-* <code>bedrooms</code> - Number of bedrooms
-* <code>bathrooms</code> - Number of bathrooms
-* <code>sqft_living</code> - Square footage of living space in the home
-* <code>sqft_lot</code> - Square footage of the lot
-* <code>floors</code> - Number of floors(levels) in house
-* <code>waterfront</code> - Whether the house is on a waterfront
-* <code>view</code>  - Quality of view from house
-* <code>condition</code> How good the overall condition of the house is. Related to the maintenance of house. 
-* <code>grade</code> -Overall grade of the house. Related to the construction adn design of the house
-* <code>yr_built</code> - Year when house was built
-* <code>yr_renovated</code> - Year when house was renovated
-* <code>lat</code> - Latitude coordinate
-* <code>long</code> - Longitude coordinate
+|<code>date</code>| Date house was sold|datetime|Numeric|Feature|
+| <code>price</code>|Sale price (__prediction target__)|int| Numeric|Target|
+| <code>bedrooms</code>|Number of bedrooms|
+| <code>bathrooms</code>|Number of bathrooms|
+| <code>sqft_living</code>|Square footage of living space in the home|
+| <code>sqft_lot</code>|Square footage of the lot|
+| <code>floors</code>|Number of floors(levels) in house|
+| <code>waterfront</code>|Whether the house is on a waterfront|
+| <code>view</code>|  Quality of view from house|
+| <code>condition</code>|How good the overall condition of the house is. Related to the maintenance of house| 
+| <code>grade</code>|Overall grade of the house. Related to the construction and design of the house|
+| <code>yr_built</code>|Year when house was built|
+| <code>yr_renovated</code>|Year when house was renovated|
+| <code>lat</code>|Latitude coordinate|
+| <code>long</code>| Longitude coordinate|
 
 # Data Preparation
 ## Import libraries and Visualization Packages
