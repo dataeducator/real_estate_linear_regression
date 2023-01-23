@@ -68,7 +68,8 @@ Finally, I followed this methodology:
 * Build a linear regression using <code>statsModels</code>
 * Describe the overall model performance 
 * Interpret its coefficients. 
-![Simple_Linear_model_trendline](https://user-images.githubusercontent.com/107881738/213949325-3021316a-ee15-4ad6-a1d6-4874dfeb3d37.png)
+![Simple_Linear_model_trendline](https://user-images.githubusercontent.com/107881738/213949424-e1fcb21d-015f-4692-a90f-d59301ab121a.png)
+
 
 # Evaluation
 
