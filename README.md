@@ -74,7 +74,11 @@ Finally, I followed this methodology:
 
 
 # Evaluation
-The simple linear regression explains about 
+This simple linear regression model is statistically significant overall, and explains 36.5% of the variance in house price. Both the intercept and the coefficient for sqft_living are statistically significant.
+
+The intercept is a small negative number, meaning a home with 0 square feet of living would cost around $0.
+
+The coefficient for sqft_living is about 157, which means that for each additional square foot of living space, I expect the price to increase about $157.
 ![OLS_regression_simple](https://user-images.githubusercontent.com/107881738/213949522-674e75a2-aec9-46cb-93c3-a0c88791e406.png)
 
 # Insights
