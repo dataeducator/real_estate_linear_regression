@@ -70,11 +70,9 @@ Finally, I followed this methodology:
 * Interpret its coefficients. 
 ![Simple_Linear_model_trendline](https://user-images.githubusercontent.com/107881738/213949424-e1fcb21d-015f-4692-a90f-d59301ab121a.png)
 
-
 # Evaluation
-
-
-# Deployment
+The simple linear regression explains about 
+![OLS_regression_simple](https://user-images.githubusercontent.com/107881738/213949522-674e75a2-aec9-46cb-93c3-a0c88791e406.png)
 
 # Insights
 
