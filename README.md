@@ -96,7 +96,13 @@ For the second question, I removed features with high p-values and correlations,
 - linear : one or more predictor features have a linear relationship with the target
 - normal : one or more features (random variables from the data) all have a bell shaped curve
 - homoscedasticity : little to no multicollinearity (highly correlated variables) . I explored data related to this question using visualizations created with <code>seaborn</code>, <code>plotly express</code> and <code>matplotlib</code>.
+
 ![Q2_visualization](https://user-images.githubusercontent.com/107881738/213952841-a11ae768-3802-4085-9780-d9003a7c13b0.png)
+
+## Q3. How does proximity to a highly rated school affect the sale price of a home?
+***
+For the third question, I used data from the greatschools website and created a function that calculated the closest distance to a school that was rated Above Average or higher (betwen 7 and 10, inclusive):
+![Q3_visualization](https://user-images.githubusercontent.com/107881738/213953720-5cbd3afa-2a1d-4f61-9440-165493e9c79b.png)
 
 # Recommendations
 
