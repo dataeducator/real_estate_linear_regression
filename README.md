@@ -87,8 +87,16 @@ The results Summary from the statsmodel ordinary least squares shows:
 # Insights
 ## Q1. Which neighborhoods have the highest average home price?
 ***
-For the first question I looked for correlations between attributes and used price as my target varable. I explored data related to this question using visualizations created with <code>seaborn</code>, <code>plotly express</code> and <code>matplotlib</code>.
+For the first question I looked for correlations between attributes and used price as my target variable. I explored data related to this question using visualizations created with <code>seaborn</code>, <code>plotly express</code> and <code>matplotlib</code>.
 ![Housing Prices in King County_edit_edit](https://user-images.githubusercontent.com/107881738/213952477-9ed3cedf-bbad-42e9-b589-4fa6219d4713.gif)
+
+## Q2.  How does the number of bedrooms affect the sale price of a home?
+***
+For the second question, I removed features with high p-values and correlations, truncated the data so that it was more suitable for a linear regression model: 
+- linear : one or more predictor features have a linear relationship with the target
+- normal : one or more features (random variables from the data) all have a bell shaped curve
+- homoscedasticity : little to no multicollinearity (highly correlated variables) . I explored data related to this question using visualizations created with <code>seaborn</code>, <code>plotly express</code> and <code>matplotlib</code>.
+![Q2_visualization](https://user-images.githubusercontent.com/107881738/213952841-a11ae768-3802-4085-9780-d9003a7c13b0.png)
 
 # Recommendations
 
