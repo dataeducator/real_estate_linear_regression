@@ -47,7 +47,7 @@ Importing libraries at the beginning allows access to modules and other tools th
 * <code>numpy</code>: a key library that brings the computationaly power of languages like C to Python
 * <code>matplotlib</code>: a comprehensive visualization library
 * <code>seaborn</code>: a data visualization library based on matplotlib
-    ![Simple_Linear_model_trendline](Images/Simple_Linear_model_trendline.jpg)
+
 
 ## Select Data
 Read in data from  <code>kc_house_data.csv</code> using <code>.read_csv()</code> from the pandas library.
@@ -85,6 +85,10 @@ The results Summary from the statsmodel ordinary least squares shows:
 ![OLS_regression_simple](https://user-images.githubusercontent.com/107881738/213949522-674e75a2-aec9-46cb-93c3-a0c88791e406.png)
 
 # Insights
+## Q1. Which neighborhoods have the highest average home price?
+***
+For the first question I looked for correlations between attributes and used price as my target varable. I explored data related to this question using visualizations created with <code>seaborn</code>, <code>plotly express</code> and <code>matplotlib</code>.
+![Housing Prices in King County_edit_edit](https://user-images.githubusercontent.com/107881738/213952477-9ed3cedf-bbad-42e9-b589-4fa6219d4713.gif)
 
 # Recommendations
 
