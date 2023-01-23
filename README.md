@@ -105,9 +105,14 @@ For the third question, I used data from the greatschools website and created a 
 ![Q3_visualization](https://user-images.githubusercontent.com/107881738/213953720-5cbd3afa-2a1d-4f61-9440-165493e9c79b.png)
 
 # Recommendations
+- Curate a set of listings using the interactive map that are a between 2 and 5 bedroom homes.
+
+- Use the interactive map to narrow down homes that have a minimum sale price of 470K dollars.
+
+- Show families homes that and are within 10 miles of an Above Average school. This will allow Landing Pad to reach a broader set of home owners who are within our target market.
 
 # Future Work
-
+Moving forward I would like to explore the effect of distance to local attractions (ex. parks, third places, places of worship) on sale price in the King County dataset.
 # Repository Structure
 <pre>
 .
