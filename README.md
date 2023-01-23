@@ -47,6 +47,7 @@ Importing libraries at the beginning allows access to modules and other tools th
 * <code>numpy</code>: a key library that brings the computationaly power of languages like C to Python
 * <code>matplotlib</code>: a comprehensive visualization library
 * <code>seaborn</code>: a data visualization library based on matplotlib
+    ![Simple_Linear_model_trendline](Images/Simple_Linear_model_trendline.jpg)
 
 ## Select Data
 Read in data from  <code>kc_house_data.csv</code> using <code>.read_csv()</code> from the pandas library.
@@ -60,6 +61,7 @@ To dig deeper into the data, I will:
 * Review the datatypes found within the entire dataframe
 * Address duplicates, missing and placeholder data
 * Address incorrect or incongruous datatypes for the model
+* Explore correlation between features
 
 # Build a Simple Linear Regression model
 
@@ -69,6 +71,7 @@ Finally, I followed this methodology:
 * Describe the overall model performance 
 * Interpret its coefficients. 
 ![Simple_Linear_model_trendline](https://user-images.githubusercontent.com/107881738/213949424-e1fcb21d-015f-4692-a90f-d59301ab121a.png)
+
 
 # Evaluation
 The simple linear regression explains about 
